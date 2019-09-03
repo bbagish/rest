@@ -8,10 +8,10 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class Twitter_Timline {
-	String consumerKey="Wzf4iffJ4TORnrzlcKgZlscmp";
-	String consumerSecret="SJiW3JOTiiV0MOJPfU5H6mJzkBuogA92Fe54JzCrZawZVVGPjq";
-	String accessToken="954863864843206656-rUsj00N682J9kiWRljv5M1u02c02frL";
-	String TokenSecret="ajP42ngHeMNkQmPH1kh0VTeyn6ots0NJV3YyWzel8zAlA";
+	String consumerKey="";
+	String consumerSecret="";
+	String accessToken="-";
+	String TokenSecret="";
 	
 	@Test
 	public void getLatestTwitt() {
