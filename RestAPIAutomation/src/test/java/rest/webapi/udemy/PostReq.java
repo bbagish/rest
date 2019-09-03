@@ -11,7 +11,7 @@ public class PostReq {
 	public void test() {
 		baseURI = "https://maps.googleapis.com/";
 		given().
-		queryParam("key", "AIzaSyBEcPtgPUKObLbUaiWTm4zFuJfaIUGBp10")
+		queryParam("key", "token")
 		.body("{"+ "\"location\": {"
 				+ 
 				"\"lat\": -33.8669710,"+
